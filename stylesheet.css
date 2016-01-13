@@ -57,6 +57,12 @@ a:focus {
 .face {
 	border-radius: 50%;
 }
+
+.maketime {
+	border-radius: 80%;
+	width: 150px;
+	height: 150px;
+}
 .right {
     float: right;
     clear: right;
@@ -90,7 +96,7 @@ nav.footer {
 #team,
 #features,
 #testimonial,
-#pricing,
+#projects,
 #promo,
 #button {
     color: #424242;
@@ -175,13 +181,14 @@ span.t-position {
     color: black;
     width: 30px;
     height: 30px;
-    border: 1.5px solid transparent;
+    border: 1.5px solid black;
     border-radius: 5px;
 }
 .t-social2 .fa:hover {
     padding: 6px;
     width: 30px;
     height: 30px;
+    background-color:black;
     border: 1.5px solid black;
     border-radius: 5px;
     -webkit-transition: all 0.5s;
@@ -298,7 +305,7 @@ span.t-position {
 }
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img{ margin: auto}
 /***************************
-******** Pricing ********
+******** projects ********
 ***************************/
 .p-style1 {
     border: 1px solid #858585;
@@ -309,14 +316,14 @@ span.t-position {
     padding: 0px 0px;
     /*background-color: #565d67;*/
 }
-#pricing .package .btn{
+#projects .package .btn{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-#pricing .package2 .btn{
+#projects .package2 .btn{
 	margin-bottom: 20px;
 }
-#pricing .inclusion li {
+#projects .inclusion li {
     display: block;
     list-style-type: none;
     padding: 5px;

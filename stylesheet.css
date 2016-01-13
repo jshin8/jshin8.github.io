@@ -74,7 +74,7 @@ a:focus {
     text-align: center;
     vertical-align: middle;
 }
-.space { padding-top: 40px }
+.space { padding-top: 165px }
 .padding-right { padding-left: 10px }
 .bold { font-weight: 700 }
 .light { font-weight: lighter }
@@ -261,7 +261,7 @@ span.t-position {
     height: 610px;
     width: 100%;
     /*border: 8px solid black;*/
-    padding-top: 100px;
+    padding-top: 90px;
     padding-bottom: 130px;
     padding-left: 150px;
     padding-right: 150px;

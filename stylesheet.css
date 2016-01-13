@@ -31,7 +31,6 @@ h4 {
 h5 {
     font-size: 14px;
     font-weight: 300;
-    text-transform: uppercase;
 }
 h6 {
     font-size: 12px;
@@ -256,20 +255,23 @@ span.t-position {
     display: block;
     width: 100%;
     height: auto;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 .testimonial1 {
     height: 610px;
     width: 100%;
     /*border: 8px solid black;*/
-    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 130px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .owl-theme .owl-controls .owl-page span {
     display: block;
     width: 55px;
     height: 7px;
     margin: 30px 5px;
-    border: 1px solid #ea6060;
+    border: 1px solid black;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 0px;
@@ -277,7 +279,7 @@ span.t-position {
 }
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
-    background: #ea6060;
+    background: black;
     opacity: 100;
 }
 .testimonial2 {
